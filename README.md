@@ -5,12 +5,12 @@ TMUX-IDE is a coding environment built using TMUX.
 
 ### Table of Contents
 
-	- [TMUX](#tmux)
-	- [Why](#why)
-	- [Features](#features)
-	- [Dependencies](#dependencies)
-	- [Installation](#installation)
-	- [Usage](#usage)
+    - [TMUX](#tmux)
+    - [Why](#why)
+    - [Features](#features)
+    - [Dependencies](#dependencies)
+    - [Installation](#installation)
+    - [Usage](#usage)
 
 ### TMUX
 
