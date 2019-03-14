@@ -77,7 +77,5 @@ tde <session name>
 tde test
 
 ```
-
-### Usage Video
-
-![video](https://raw.githubusercontent.com/sandeeprenjith/TMUX-IDE/master/tde.mp4)
+View usage video:
+https://youtu.be/Z2L6N8pFXT4
