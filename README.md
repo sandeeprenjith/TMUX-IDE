@@ -79,7 +79,7 @@ cp tde /usr/bin
 
 ### Usage
 
-tde <session name>
+tde \<session name\>
 
 > session name can be any name
 
