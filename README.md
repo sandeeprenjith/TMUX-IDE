@@ -59,14 +59,14 @@ For other systems. [Instructions here](https://github.com/tmux/tmux/wiki)
 Clone the repo
 
 ```
-git@github.com:sandeeprenjith/TMUX-IDE.git
+git clone git@github.com:sandeeprenjith/TMUX-IDE.git
 
 ```
 
 or 
 
 ```
-https://github.com/sandeeprenjith/TMUX-IDE.git
+git clone https://github.com/sandeeprenjith/TMUX-IDE.git
 
 ```
 Copy the files to a directory in your $PATH(example: /usr/bin)
