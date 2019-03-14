@@ -2,6 +2,16 @@
 
 TMUX-IDE is a coding environment built using TMUX. 
 
+
+### Table of Contents
+
+	- [TMUX](#tmux)
+	- [Why](#why)
+	- [Features](#features)
+	- [Dependencies](#dependencies)
+	- [Installation](#installation)
+	- [Usage](#usage)
+
 ### TMUX
 
 TMUX is a terminal multiplier. 
@@ -77,5 +87,5 @@ tde <session name>
 tde test
 
 ```
-View usage video:
-https://youtu.be/Z2L6N8pFXT4
+
+View usage video: https://youtu.be/Z2L6N8pFXT4
