@@ -1,13 +1,13 @@
 #!/bin/bash
 clear
 prevpath=$1
-ls  -la $(tmux display-message -t 1 -p -F "#{pane_current_path}" )| awk '{if ($1 ~ /d.*/) print "\033[34m" $9; else print "\033[32m"  $9}'
+ls  -la $(tmux display-message -t 2 -p -F "#{pane_current_path}" )| awk '{if ($1 ~ /d.*/) print "\033[34m" $9; else print "\033[32m"  $9}'
 while : 
 do  
-		if [ "$prevpath" !=  "$(ls $(tmux display-message -t 1 -p -F '#{pane_current_path}'))" ]
+		if [ "$prevpath" !=  "$(ls $(tmux display-message -t 2 -p -F '#{pane_current_path}'))" ]
 		then
 				clear
-				ls  -la $(tmux display-message -t 1 -p -F "#{pane_current_path}" )| awk '{if ($1 ~ /d.*/) print "\033[34m" $9; else print "\033[32m"  $9}'
-				prevpath=$(ls $(tmux display-message -t 1 -p -F "#{pane_current_path}" ))
+				ls  -la $(tmux display-message -t 2 -p -F "#{pane_current_path}" )| awk '{if ($1 ~ /d.*/) print "\033[34m" $9; else print "\033[32m"  $9}'
+				prevpath=$(ls $(tmux display-message -t 2 -p -F "#{pane_current_path}" ))
 		fi
 done 
